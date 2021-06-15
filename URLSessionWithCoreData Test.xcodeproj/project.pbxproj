@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0932EBA726773FE200988959 /* URLSession_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0932EBA626773FE200988959 /* URLSession_TestApp.swift */; };
+		0932EBA726773FE200988959 /* URLSessionWithCoreData_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0932EBA626773FE200988959 /* URLSessionWithCoreData_TestApp.swift */; };
 		0932EBA926773FE200988959 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0932EBA826773FE200988959 /* ContentView.swift */; };
 		0932EBAB26773FE400988959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0932EBAA26773FE400988959 /* Assets.xcassets */; };
 		0932EBAE26773FE400988959 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0932EBAD26773FE400988959 /* Preview Assets.xcassets */; };
@@ -35,18 +35,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0932EBA326773FE200988959 /* URLSession Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "URLSession Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0932EBA626773FE200988959 /* URLSession_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession_TestApp.swift; sourceTree = "<group>"; };
+		0932EBA326773FE200988959 /* URLSessionWithCoreData Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "URLSessionWithCoreData Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0932EBA626773FE200988959 /* URLSessionWithCoreData_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionWithCoreData_TestApp.swift; sourceTree = "<group>"; };
 		0932EBA826773FE200988959 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0932EBAA26773FE400988959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0932EBAD26773FE400988959 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0932EBAF26773FE400988959 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0932EBB226773FE400988959 /* URLSession_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = URLSession_Test.xcdatamodel; sourceTree = "<group>"; };
 		0932EBB426773FE400988959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0932EBB926773FE400988959 /* URLSession TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "URLSession TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0932EBB926773FE400988959 /* URLSessionWithCoreData TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "URLSessionWithCoreData TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0932EBBD26773FE400988959 /* URLSession_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession_TestTests.swift; sourceTree = "<group>"; };
 		0932EBBF26773FE400988959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0932EBC426773FE400988959 /* URLSession TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "URLSession TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0932EBC426773FE400988959 /* URLSessionWithCoreData TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "URLSessionWithCoreData TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0932EBC826773FE400988959 /* URLSession_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession_TestUITests.swift; sourceTree = "<group>"; };
 		0932EBCA26773FE400988959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,7 +79,7 @@
 		0932EB9A26773FE200988959 = {
 			isa = PBXGroup;
 			children = (
-				0932EBA526773FE200988959 /* URLSession Test */,
+				0932EBA526773FE200988959 /* URLSessionWithCoreData Test */,
 				0932EBBC26773FE400988959 /* URLSession TestTests */,
 				0932EBC726773FE400988959 /* URLSession TestUITests */,
 				0932EBA426773FE200988959 /* Products */,
@@ -89,17 +89,17 @@
 		0932EBA426773FE200988959 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0932EBA326773FE200988959 /* URLSession Test.app */,
-				0932EBB926773FE400988959 /* URLSession TestTests.xctest */,
-				0932EBC426773FE400988959 /* URLSession TestUITests.xctest */,
+				0932EBA326773FE200988959 /* URLSessionWithCoreData Test.app */,
+				0932EBB926773FE400988959 /* URLSessionWithCoreData TestTests.xctest */,
+				0932EBC426773FE400988959 /* URLSessionWithCoreData TestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0932EBA526773FE200988959 /* URLSession Test */ = {
+		0932EBA526773FE200988959 /* URLSessionWithCoreData Test */ = {
 			isa = PBXGroup;
 			children = (
-				0932EBA626773FE200988959 /* URLSession_TestApp.swift */,
+				0932EBA626773FE200988959 /* URLSessionWithCoreData_TestApp.swift */,
 				0932EBA826773FE200988959 /* ContentView.swift */,
 				0932EBAA26773FE400988959 /* Assets.xcassets */,
 				0932EBAF26773FE400988959 /* Persistence.swift */,
@@ -107,7 +107,7 @@
 				0932EBB126773FE400988959 /* URLSession_Test.xcdatamodeld */,
 				0932EBAC26773FE400988959 /* Preview Content */,
 			);
-			path = "URLSession Test";
+			path = "URLSessionWithCoreData Test";
 			sourceTree = "<group>";
 		};
 		0932EBAC26773FE400988959 /* Preview Content */ = {
@@ -139,9 +139,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0932EBA226773FE200988959 /* URLSession Test */ = {
+		0932EBA226773FE200988959 /* URLSessionWithCoreData Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0932EBCD26773FE400988959 /* Build configuration list for PBXNativeTarget "URLSession Test" */;
+			buildConfigurationList = 0932EBCD26773FE400988959 /* Build configuration list for PBXNativeTarget "URLSessionWithCoreData Test" */;
 			buildPhases = (
 				0932EB9F26773FE200988959 /* Sources */,
 				0932EBA026773FE200988959 /* Frameworks */,
@@ -151,14 +151,14 @@
 			);
 			dependencies = (
 			);
-			name = "URLSession Test";
+			name = "URLSessionWithCoreData Test";
 			productName = "URLSession Test";
-			productReference = 0932EBA326773FE200988959 /* URLSession Test.app */;
+			productReference = 0932EBA326773FE200988959 /* URLSessionWithCoreData Test.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0932EBB826773FE400988959 /* URLSession TestTests */ = {
+		0932EBB826773FE400988959 /* URLSessionWithCoreData TestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0932EBD026773FE400988959 /* Build configuration list for PBXNativeTarget "URLSession TestTests" */;
+			buildConfigurationList = 0932EBD026773FE400988959 /* Build configuration list for PBXNativeTarget "URLSessionWithCoreData TestTests" */;
 			buildPhases = (
 				0932EBB526773FE400988959 /* Sources */,
 				0932EBB626773FE400988959 /* Frameworks */,
@@ -169,14 +169,14 @@
 			dependencies = (
 				0932EBBB26773FE400988959 /* PBXTargetDependency */,
 			);
-			name = "URLSession TestTests";
+			name = "URLSessionWithCoreData TestTests";
 			productName = "URLSession TestTests";
-			productReference = 0932EBB926773FE400988959 /* URLSession TestTests.xctest */;
+			productReference = 0932EBB926773FE400988959 /* URLSessionWithCoreData TestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0932EBC326773FE400988959 /* URLSession TestUITests */ = {
+		0932EBC326773FE400988959 /* URLSessionWithCoreData TestUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0932EBD326773FE400988959 /* Build configuration list for PBXNativeTarget "URLSession TestUITests" */;
+			buildConfigurationList = 0932EBD326773FE400988959 /* Build configuration list for PBXNativeTarget "URLSessionWithCoreData TestUITests" */;
 			buildPhases = (
 				0932EBC026773FE400988959 /* Sources */,
 				0932EBC126773FE400988959 /* Frameworks */,
@@ -187,9 +187,9 @@
 			dependencies = (
 				0932EBC626773FE400988959 /* PBXTargetDependency */,
 			);
-			name = "URLSession TestUITests";
+			name = "URLSessionWithCoreData TestUITests";
 			productName = "URLSession TestUITests";
-			productReference = 0932EBC426773FE400988959 /* URLSession TestUITests.xctest */;
+			productReference = 0932EBC426773FE400988959 /* URLSessionWithCoreData TestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -214,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0932EB9E26773FE200988959 /* Build configuration list for PBXProject "URLSession Test" */;
+			buildConfigurationList = 0932EB9E26773FE200988959 /* Build configuration list for PBXProject "URLSessionWithCoreData Test" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -227,9 +227,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0932EBA226773FE200988959 /* URLSession Test */,
-				0932EBB826773FE400988959 /* URLSession TestTests */,
-				0932EBC326773FE400988959 /* URLSession TestUITests */,
+				0932EBA226773FE200988959 /* URLSessionWithCoreData Test */,
+				0932EBB826773FE400988959 /* URLSessionWithCoreData TestTests */,
+				0932EBC326773FE400988959 /* URLSessionWithCoreData TestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,7 +268,7 @@
 				0932EBB026773FE400988959 /* Persistence.swift in Sources */,
 				0932EBA926773FE200988959 /* ContentView.swift in Sources */,
 				0932EBB326773FE400988959 /* URLSession_Test.xcdatamodeld in Sources */,
-				0932EBA726773FE200988959 /* URLSession_TestApp.swift in Sources */,
+				0932EBA726773FE200988959 /* URLSessionWithCoreData_TestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,12 +293,12 @@
 /* Begin PBXTargetDependency section */
 		0932EBBB26773FE400988959 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0932EBA226773FE200988959 /* URLSession Test */;
+			target = 0932EBA226773FE200988959 /* URLSessionWithCoreData Test */;
 			targetProxy = 0932EBBA26773FE400988959 /* PBXContainerItemProxy */;
 		};
 		0932EBC626773FE400988959 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0932EBA226773FE200988959 /* URLSession Test */;
+			target = 0932EBA226773FE200988959 /* URLSessionWithCoreData Test */;
 			targetProxy = 0932EBC526773FE400988959 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -426,16 +426,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"URLSession Test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"URLSessionWithCoreData Test/Preview Content\"";
 				DEVELOPMENT_TEAM = B44N46G7XC;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "URLSession Test/Info.plist";
+				INFOPLIST_FILE = "URLSessionWithCoreData Test/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "net.sungw.experimental.URLSession-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.sungw.experimental.URLSessionWithCoreData-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,16 +448,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"URLSession Test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"URLSessionWithCoreData Test/Preview Content\"";
 				DEVELOPMENT_TEAM = B44N46G7XC;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "URLSession Test/Info.plist";
+				INFOPLIST_FILE = "URLSessionWithCoreData Test/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "net.sungw.experimental.URLSession-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.sungw.experimental.URLSessionWithCoreData-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -482,7 +482,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URLSession Test.app/URLSession Test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URLSessionWithCoreData Test.app/URLSessionWithCoreData Test";
 			};
 			name = Debug;
 		};
@@ -504,7 +504,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URLSession Test.app/URLSession Test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URLSessionWithCoreData Test.app/URLSessionWithCoreData Test";
 			};
 			name = Release;
 		};
@@ -551,7 +551,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0932EB9E26773FE200988959 /* Build configuration list for PBXProject "URLSession Test" */ = {
+		0932EB9E26773FE200988959 /* Build configuration list for PBXProject "URLSessionWithCoreData Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0932EBCB26773FE400988959 /* Debug */,
@@ -560,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0932EBCD26773FE400988959 /* Build configuration list for PBXNativeTarget "URLSession Test" */ = {
+		0932EBCD26773FE400988959 /* Build configuration list for PBXNativeTarget "URLSessionWithCoreData Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0932EBCE26773FE400988959 /* Debug */,
@@ -569,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0932EBD026773FE400988959 /* Build configuration list for PBXNativeTarget "URLSession TestTests" */ = {
+		0932EBD026773FE400988959 /* Build configuration list for PBXNativeTarget "URLSessionWithCoreData TestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0932EBD126773FE400988959 /* Debug */,
@@ -578,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0932EBD326773FE400988959 /* Build configuration list for PBXNativeTarget "URLSession TestUITests" */ = {
+		0932EBD326773FE400988959 /* Build configuration list for PBXNativeTarget "URLSessionWithCoreData TestUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0932EBD426773FE400988959 /* Debug */,

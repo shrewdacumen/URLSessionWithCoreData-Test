@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct URLSession_TestApp: App {
+struct URLSessionWithCoreData_TestApp: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {

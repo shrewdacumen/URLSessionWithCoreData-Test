@@ -22,6 +22,11 @@ struct ContentView: View {
                 Text("Item at \(item.timestamp!, formatter: itemFormatter)")
             }
             .onDelete(perform: deleteItems)
+            .onMove(perform: { indices, newOffset in
+              
+              //              self.items.move(from: indices, to: newOffset)
+              
+            })
         }
         .toolbar {
             #if os(iOS)
